@@ -25,14 +25,14 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>3.6.0</version> <!-- Оновіть версію за потреби -->
+                <version>3.6.0</version>
                 <configuration>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>Main</mainClass> <!-- Замініть your.main.class.Here на ваш клас з методом main -->
+                            <mainClass>Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
